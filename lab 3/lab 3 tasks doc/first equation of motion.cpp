@@ -21,5 +21,7 @@ int main() {                    // START OF MAIN FUNCTION
 	cout<<"acceleration = "<<a<<"m/s^2"<<endl;      // acceleration and its unit  displayng
 	cout<<"time = "<<t<<" s" <<endl;               // time and unit displaying
 	cout<<"final velocity = "<<v<<" m/s"<<endl;    // final velocity  and its unit displaying
-
+ 
+ 
+ return 0;  // this tells that program has ended successfully
 }
