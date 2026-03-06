@@ -9,5 +9,5 @@ int main()            // This is the main function where the program starts runn
 {
     cout << "Hello world";   // This line prints the text "Hello world" on the screen
 
-    return 0;         // This ends the program and tells the computer thta program ran successfull
+    return 0;         // This ends the program and tells the computer that program ran successfull
 }

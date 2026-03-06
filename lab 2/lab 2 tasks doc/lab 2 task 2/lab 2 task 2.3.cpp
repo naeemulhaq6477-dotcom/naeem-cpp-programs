@@ -6,5 +6,5 @@ using namespace std;  // allows us to use standard namespace without having to t
 
 int main() {                        // starting point of the main function from where programs execution begins
     cout << "Enter your registration number";   // Prints the message asking for registration number
-    return 0;             // tells that program has ended successfully
+    return 0;             // tells the computer that program has ended successfully
 }

@@ -7,5 +7,5 @@ using namespace std;  // allows us to use standard namespace instead of writing 
 
 int main() {
     cout << "Enter your name";   // Prints the message asking the user to enter their name
-    return 0;                    // tells that program has ended successfully
+    return 0;                    // tells the computer that program has ended successfully
 }
