@@ -1,5 +1,5 @@
-                         // Naeem = Naeem Ul Haq
-                           // ID= 5122416 / 0665
+ // Naeem = Naeem Ul Haq
+ // ID= 5122416 / 0665
 
 #include <iostream>                     // tells the cmpiler to include standard input output library
 using namespace std;          // allows us to use cout and cin without tyiping std:: for every one

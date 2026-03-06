@@ -16,9 +16,9 @@ int main()            // This is the main function. The program always starts ru
 
     {
         cout << "NAEEM UL HAQ" << "\n";  
-                                  // Inside the loop: this line prints "Usama Siraj" followed by a new line.
+                                  // Inside the loop: this line prints "naeem ul haq" followed by a new line.
                                   // Since the loop runs 2 times, the text will be printed twice.
     }
 
-    return 0;         // End the program successfully and tell the computer everything worked fine.
+    return 0;         // tells the computer that program has ended successfully
 }

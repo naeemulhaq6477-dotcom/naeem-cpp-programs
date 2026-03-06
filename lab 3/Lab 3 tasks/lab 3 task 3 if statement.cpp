@@ -1,5 +1,5 @@
-                  // NAME= Naeem Ul Haq
-                    // ID= 5122416 / 0665
+ // NAME= Naeem Ul Haq
+// ID= 5122416 / 0665
 
 #include <iostream>             // tells the compiler to include standard input output library
 using namespace std;             // allows us to use cout and cin without having the need to type std:: for each
@@ -15,6 +15,6 @@ int main() {               // execution of main function beginns from here
 	else                                   // runs if the if condition fails
 	cout<<"the number is negative"<<endl;  // prints the message if the number is smaller than 0 
 	
-	return 0;              // tells that the program has ended
+	return 0;              // tells the operating system that program has finishe
 
 }

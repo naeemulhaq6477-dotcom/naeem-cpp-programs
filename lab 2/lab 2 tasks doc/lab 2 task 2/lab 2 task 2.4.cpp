@@ -1,6 +1,5 @@
 // Name: Naeem ul haq
 // ID: 5122416 / 0665
-// Task 2 - Subtask (c)
 // This program prints "Enter your CGPA"
 
 #include <iostream>

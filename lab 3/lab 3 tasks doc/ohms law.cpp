@@ -1,9 +1,8 @@
-                         // NAME = NAEEM UL HAQ
-                            // ID = 5122416 / 0665
+// NAME = NAEEM UL HAQ
+// ID = 5122416 / 0665
 
-#include <iostream>               // tells the compiler to include standard input output library
-using namespace std;             // allows us to use cout and cin without having to type std:: for each
-
+#include <iostream>                // this tells the compiler to include standard input output library
+using namespace std;  // this allows us to use standard namespace instead of writing std:: for each cin and cout
 int main() {                               // start of logical or main function
      
      double voltage,resistance,current;           //  3 variables  declaration
@@ -19,6 +18,6 @@ int main() {                               // start of logical or main function
      cout<<"current = "<<current<<"A"<<endl;          // output value of current and unit
      cout<<"resistance = "<<resistance<<" ohm"<<endl;    // output value of resistance and unit
      
-     return 0;    // tells that program ended successfully
+     return 0;    // this tells the computer that program has ended successfully
 }
 

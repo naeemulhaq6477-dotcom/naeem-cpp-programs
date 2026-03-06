@@ -1,5 +1,5 @@
-                     // NAME= Naeem Ul Haq
-                    // ID= 5122416 / 0665
+ // NAME= Naeem Ul Haq
+ // ID= 5122416 / 0665
 
 #include <iostream>  // tells the compiler toinclude input output stream library
 using namespace std; // uses standard namespaces without having to write std:: for every cin and cout
@@ -14,6 +14,6 @@ int main() {             //the main function from where the execution starts
 	else                                  // this part rund if the if condition fails
 	cout<<"you are a minor"<<endl;          // prints you are a minor
 	
-	return 0;                         // tells that program ends successfully
+	return 0;                         // tells the operating system that program has finishe
 
 }

@@ -1,9 +1,9 @@
-                   // NAME=NAEEM UL HAQ
-            // ID = 5122416 / 0665
+ // NAME=NAEEM UL HAQ
+ // ID = 5122416 / 0665
  
-#include <iostream>                 // includes the the library for input and output
+#include <iostream>                 // this tells the compiler to include standard input output library 
 #include <cmath>                   // includes the math library to use functions like sqrt()
-using namespace std;
+using namespace std;  // this allows us to use standard namespace instead of writing std:: for each cin and cout 
 
 int main() {                                     // the starting point from where programming execution begins
     double a, b, c, discriminant, root1, root2;   // declares decimal type variables to store coefficients and results
@@ -37,5 +37,5 @@ int main() {                                     // the starting point from wher
         cout << "Roots are imaginary (no real roots)." << endl; // tells the user the solution involves complex numbers
     }
 
-    return 0;          // tells the system that program ends successfully
+    return 0;         // ends the program and signals successful completion to the computer
 }

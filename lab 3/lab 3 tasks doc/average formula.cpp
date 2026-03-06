@@ -1,7 +1,8 @@
-                // NAME=NAEEM UL HAQ
-                  // ID= 5122416 / 0665
-#include <iostream>                               
-using namespace std;                       
+// NAME=NAEEM UL HAQ
+// ID= 5122416 / 0665
+
+#include <iostream>           // tells the compiler to include input output stream library                   
+using namespace std;    // allows us to use standard namespace without having to write std:: for each cin and cout
 
 int main() {                    // start of main function 
 
@@ -14,7 +15,7 @@ int main() {                    // start of main function
           	
           	cout<<"average marks ="<<ave<<endl;    // output value of average
           	
-          	return 0;
+          	return 0;                    // tells the computer that program has ended successfully
           	
 
 }

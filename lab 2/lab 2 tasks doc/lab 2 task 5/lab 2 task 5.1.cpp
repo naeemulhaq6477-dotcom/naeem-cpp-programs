@@ -21,5 +21,5 @@ int main()            // This is the main function. The program always starts ru
     cout << "Naeem Ulhaq" << endl;
     cout << "Naeem Ulhaq" << endl;   // This is the 10th time
 
-    return 0;         // End the program successfully
+    return 0;         // tells the computer that program ahs ended successfully
 }

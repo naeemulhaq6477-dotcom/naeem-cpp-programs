@@ -1,9 +1,9 @@
-               // NAME = NAEEM UL HAQ
-                // ID = 5122416 / 0665
+ // NAME = NAEEM UL HAQ
+ // ID = 5122416 / 0665
 
-#include <iostream>               // standard input output library for input and output operations
+#include <iostream>                // this tells the compiler to include standard input output library 
 #include <cmath>                   // required to use mathematical functions like sqrt()
-using namespace std;            // tells the compiler to use the standard c++ namespace
+using namespace std;   // this allows us to use standard namespace instead of writing std:: for each cin and cout 
 
 int main() {                                    // beginning of main function 
     double base, perpendicular, hypotenuse;      // declares three variables toallow for decimal values
@@ -18,5 +18,5 @@ int main() {                                    // beginning of main function
 
     cout << "Hypotenuse = " << hypotenuse;            //  prints the final calculated result to the console
 
-    return 0;                                 // tells that program ends successfully
+    return 0;         // ends the program and signals successful completion to the computer
 }

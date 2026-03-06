@@ -1,5 +1,5 @@
-                    // NAME= Naeem Ul Haq
-                     // ID=5122416 / 0665
+// NAME= Naeem Ul Haq
+// ID=5122416 / 0665
 
 #include <iostream>  // tells the compiler to include standard input output stream library
 using namespace std;  // allows us to use cout and cin without having the need to typ std:: for each cin and cout
@@ -16,7 +16,7 @@ int main() {                 // main function execution beggins from here
 	else if(a==0)                              // cheaks that if the number is exactly 0
 	cout<<"the number you entered is zero";         // final confirmation for 0
 	
-	return 0;                               // tells that the program has ended successfully
+	return 0;                            // tells the operating system that program has finishe
 	
 
 }

@@ -2,8 +2,8 @@
 // ID: 5122416 / 0665
 // Objective: Subtract two numbers using a function
 
-#include <iostream>   // Include input-output library
-using namespace std;  // Use standard namespace
+#include <iostream>   // tells the compiler to include input output stream library
+using namespace std;  // Use standard namespace to avoid writing std::cout for each
 
 int subTwo(int x, int y);   // Function declaration: subTwo takes two integers and returns their difference
 
@@ -19,7 +19,7 @@ int main() {
     result = subTwo(a, b);   // Call subTwo function with a and b
 
     cout << "Difference of " << a << " and " << b << " is: " << result << endl;   // Print result
-    return 0;   // End program successfully
+    return 0;    // tells the computer that program has ended successfully
 }
 
 int subTwo(int x, int y) {   // Function definition

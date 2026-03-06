@@ -15,5 +15,5 @@ int main()            // This is the main function. The program always starts ru
 
     cout << a;        // Print the value stored in variable 'a' (which is 10) on the screen.
 
-    return 0;         // End the program and tell the computer everything worked correctly.
+    return 0;         // End the program and tell the computer program has ended successfully
 }

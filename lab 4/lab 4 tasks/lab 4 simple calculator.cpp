@@ -1,10 +1,10 @@
  // Name: Naeem ul Haq
  // ID: 512241 / 0665
 
-#include <iostream>
-using namespace std;
+#include <iostream>   // tells the compiler to include input output stream library
+using namespace std;    // use standard namespace without having the need to type std:: for  every cin and cout
 
-int main() {
+int main() {        // main function starting point
     char op;          // Variable to store operator (+, -, *, /)
     double num1, num2; // Variables to store two numbers
 
@@ -47,5 +47,5 @@ int main() {
             break;
     }
 
-    return 0; // End of program
+    return 0;  //tells the computer that program has ended successfully
 }

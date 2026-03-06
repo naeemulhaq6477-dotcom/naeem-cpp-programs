@@ -2,8 +2,8 @@
 // ID: 5122416 / 0665
 // Objective: Divide two numbers using a function
 
-#include <iostream>   // Include input-output library
-using namespace std;  // Use standard namespace
+#include <iostream>   // tells the compiler to include input output stream library
+using namespace std;   // Use standard namespace to avoid writing std::cout for each
 
 int divTwo(int x, int y);   // Function declaration: divTwo takes two integers and returns their division
 
@@ -19,7 +19,7 @@ int main() {
     result = divTwo(a, b);   // Call divTwo function with a and b
 
     cout << "Division of " << a << " by " << b << " is: " << result << endl;   // Print result
-    return 0;   // End program successfully
+    return 0;    // tells the computer that program has ended successfully
 }
 
 int divTwo(int x, int y) {   // Function definition

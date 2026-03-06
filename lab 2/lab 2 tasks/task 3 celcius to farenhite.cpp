@@ -1,17 +1,16 @@
 // Name: Naeem Ul Haq
 // Roll No: 5122416 / 0665
-// Lab 02 - Task 3
 
-#include <iostream>   // Include input-output stream library
-using namespace std;  // Use standard namespace
+#include <iostream>   // tells the compiler to include input output stream library
+using namespace std;  // Use standard namespace instead of writing std:: for each cout and cin
 
-int main() {
+int main() {            // start of main function 
     double celsius;   // Declare variable to store Celsius temperature
     cout << "Enter temperature in Celsius: ";  // Prompt user for input
-    cin >> celsius;   // Read Celsius value from user
+    cin >> celsius;   // takes value from user and stores that value in a variable
 
     double fahrenheit = (celsius * 9.0 / 5.0) + 32; // Convert Celsius to Fahrenheit using formula
-    cout << "Temperature in Fahrenheit: " << fahrenheit << endl; // Print result
+    cout << "Temperature in Fahrenheit: " << fahrenheit << endl; // Print result to display
 
-    return 0;  // End program
+    return 0;  //tells the computer that program has ended successfully
 }

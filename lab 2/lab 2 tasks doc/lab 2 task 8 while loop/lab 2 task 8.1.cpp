@@ -23,5 +23,4 @@ int main()            // This is the main function. The program always starts ru
                       // Without this line, the loop would run forever (infinite loop).
     }
 
-    return 0;         // End the program successfully and tell the computer everything worked fine.
-}
+    return 0;       // tells the computer that program has ended successfully

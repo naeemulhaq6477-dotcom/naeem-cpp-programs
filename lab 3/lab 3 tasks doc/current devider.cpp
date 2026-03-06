@@ -1,8 +1,7 @@
-                   // NAME = NAEEM UL HAQ
-                     // ID= 5122416 / 0665
+ // NAME = NAEEM UL HAQ // ID= 5122416 / 0665
 
-#include <iostream>
-using namespace std;
+#include <iostream>               // tells the compiler to include input output stream library 
+using namespace std;   // allows us to use standard namespace without having to write std:: for each cin and cout 
 
 int main() {       // starting point from where programming execution begins
 	 float R1,R2,total,I1,I2; // declaration of floating point  variables 
@@ -20,7 +19,7 @@ int main() {       // starting point from where programming execution begins
 	 cout<<"Branche current I1 = "<<I1<<endl;   // displays the calculated current for branch 1
 	 cout<<"Branch current I2 = "<<I2<<endl;    // displays the calculated current for branch 2
 	 
-	 return 0;                         // end of the program
+	 return 0;                         // tells the computer that program has ended successfully
 	 
 
 }

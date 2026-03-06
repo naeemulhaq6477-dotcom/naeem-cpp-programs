@@ -29,5 +29,5 @@ int main()            // This is the main function. The program always starts ru
                       // If the number is less than 0, this line prints that the number is negative.
     }
 
-    return 0;         // End the program successfully and tell the computer everything worked fine.
+    return 0;         // End the program successfully and tell the computer that program ahs ended successfully
 }

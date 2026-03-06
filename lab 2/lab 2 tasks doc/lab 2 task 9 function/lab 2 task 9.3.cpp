@@ -2,8 +2,8 @@
 // ID: 5122416 / 0665
 // Objective: Multiply two numbers using a function
 
-#include <iostream>   // Include input-output library
-using namespace std;  // Use standard namespace
+#include <iostream>   // tells the compiler to include input output stream library
+using namespace std;   // Use standard namespace to avoid writing std::cout for each
 
 int mulTwo(int x, int y);   // Function declaration: mulTwo takes two integers and returns their product
 
@@ -19,7 +19,7 @@ int main() {
     result = mulTwo(a, b);   // Call mulTwo function with a and b
 
     cout << "Product of " << a << " and " << b << " is: " << result << endl;   // Print result
-    return 0;   // End program successfully
+    return 0;  // tells the computer that program has ended successfully
 }
 
 int mulTwo(int x, int y) {   // Function definition

@@ -1,8 +1,8 @@
-                 // NAME = NAEEM UL HAQ
-                // ID = 5122416 / 0665
+// NAME = NAEEM UL HAQ
+// ID = 5122416 / 0665
 
-#include <iostream>
-using namespace std;
+#include <iostream>           // this tells the compiler to include standard input output library 
+using namespace std;     // this allows us to use standard namespace instead of writing std:: for each cin and cout 
 
 int main() {                             // start of main function from where execution begins
         float length,wedth,area,perimeter;  // declaration of variable and data type
@@ -18,5 +18,5 @@ int main() {                             // start of main function from where ex
         cout<<"area = "<<area<<endl;      // output data for user after execution(area)
         cout<<"perimeter = "<<area<<endl;      //output data for user after execution(perimeter)
         
-        return 0;       // exit program and signal success to the os
+        return 0;      // ends the program and signals successful completion to the computer
 }

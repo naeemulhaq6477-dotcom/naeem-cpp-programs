@@ -1,8 +1,8 @@
-                  // NAME = NAEEM UL HAQ
-                  // ID = 5122416 / 0665
+// NAME = NAEEM UL HAQ
+// ID = 5122416 / 0665
 
-#include <iostream>              
-using namespace std;               
+#include <iostream>           // this tells the compiler to include standard input output library     
+using namespace std;   // this allows us to use standard namespace instead of writing std:: for each cin and cout 
 
 int main() {              // main function starting point with body of main function(braces)
 	
@@ -18,6 +18,6 @@ int main() {              // main function starting point with body of main func
 	
 	cout<<"net resistance is = "<<Rnet<<endl;  // prints the result and moves to a new line 
 	
-	return 0;  // ends the program and signals successful completion to the os
+	return 0;  // ends the program and signals successful completion to the computer
 
 }

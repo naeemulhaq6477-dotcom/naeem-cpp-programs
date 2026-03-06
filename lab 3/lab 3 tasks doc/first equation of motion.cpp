@@ -1,5 +1,5 @@
-                          // NAME = NAEEM UL HAQ
-                           // ID = 5122416 / 0665
+// NAME = NAEEM UL HAQ
+ // ID = 5122416 / 0665
 
 #include <iostream>          // this tells the compiler to include standard input output library
 using namespace std;   // this allows us to use standard namespace instead of writing std:: for each cin and cout
@@ -23,5 +23,5 @@ int main() {                    // START OF MAIN FUNCTION
 	cout<<"final velocity = "<<v<<" m/s"<<endl;    // final velocity  and its unit displaying
  
  
- return 0;  // this tells that program has ended successfully
+ return 0;  // this tells the computer that program has ended successfully
 }

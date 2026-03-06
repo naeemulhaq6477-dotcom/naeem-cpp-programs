@@ -1,6 +1,6 @@
-                              // NAME= Naeem Ul Haq
-                             // ID= 5122416 / 0665
-
+ // NAME= Naeem Ul Haq
+  // ID= 5122416 / 0665
+                             
 #include <iostream>             // tells the compiler to include standard input output library
 using namespace std;               // allows us to use cout without having to type std:: for each
 

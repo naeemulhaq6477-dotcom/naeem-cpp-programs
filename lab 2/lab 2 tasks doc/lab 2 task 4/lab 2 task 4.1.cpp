@@ -3,7 +3,7 @@
 // Objective: Ask the user to enter their age using cin and then display it
 
 #include <iostream>   // This line includes the input-output stream library. 
-                      // It allows us to use commands like cout (for printing) and cin (for input).
+                      // It allows us to use commands like cout  and cin .
 
 using namespace std;  // This line lets us use standard C++ commands directly. 
                       // Without it, we would have to write std::cout and std::cin.
@@ -19,5 +19,5 @@ int main()            // This is the main function. The program always starts ru
     cin >> a;         // This line takes input from the user and stores it in the variable 'a'.
                       // Whatever number the user types will be saved inside 'a'.
 
-    return 0;         // This line ends the program and tells the computer everything worked correctly.
+    return 0;         // This line ends the program and tells the computer program has ended successfully.
 }

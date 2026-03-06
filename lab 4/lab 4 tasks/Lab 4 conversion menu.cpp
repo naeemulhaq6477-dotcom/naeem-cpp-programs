@@ -1,10 +1,10 @@
 // Name: Naeem Ul Haq
 // ID: 5122416 / 0665
 
-#include <iostream>   // include input-output library
+#include <iostream>   // tells the compiler to include input output stream library
 using namespace std;  // use standard namespace without having the need to type std:: for  every cin and cout
 
-int main() {
+int main() {             // main function starting point
 
     int choice;   // variable declaration  to store user choice
     double value; // variable declaration to store input value
@@ -31,5 +31,5 @@ int main() {
         default: cout << "Invalid choice!";  // if choice is not 1-4
 }
 
-    return 0;  // end program
+    return 0;  //tells the computer that program has ended successfully
 }
